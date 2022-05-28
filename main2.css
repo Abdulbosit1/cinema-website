@@ -1,0 +1,690 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  content:"width=device-width";
+}
+.container{
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+}
+.one{
+  font-size: 48px;
+  line-height: 58px;
+  letter-spacing: 4.8px;
+  font-weight: 300;
+  margin: 0;
+  color: #158ba1;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 120px;
+  margin-top: 33px;
+  margin-left: 450px;
+}
+h2{
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+h4 {
+  float: right;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 300;
+  color: #2f3c4e;
+  text-transform: none;
+  margin-left: 50px;
+  margin-bottom: 12px;
+  margin-top: 55px;
+
+}
+.two{
+  position: relative;
+  top: 7;
+  margin-left: 90px;
+  margin-bottom: 50px;
+
+}
+.noo{
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: rgba(4, 195, 62, 0.931);
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 24px;
+  overflow: hidden;
+  transition: 0.2s;
+  position: absolute;
+  top: 320px;
+  left: 920px;
+}
+.noo:hover{
+  color: #255784;
+  background: #2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3;
+  transition-delay:1s;
+}
+.noo span{
+  position: absolute;
+  display: block;
+  
+}
+.noo span:nth-child(1){
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg,transparent, #2196f3);
+}
+.noo:hover span:nth-child(1){
+  left: 100%;
+  transition: 0.90s;
+}
+.noo span:nth-child(3){
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg,transparent, #2196f3);
+}
+.noo:hover span:nth-child(3){
+  right: 100%;
+  transition: 0.90s;
+  transition-delay: 0.5s;
+}
+
+.noo span:nth-child(2){
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg,transparent, #2196f3);
+}
+.noo:hover span:nth-child(2){
+  top: 100%;
+  transition: 0.90s;
+  transition-delay: 0.25s;
+}
+.noo span:nth-child(4){
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg,transparent, #2196f3);
+}
+.noo:hover span:nth-child(4){
+  bottom: 100%;
+  transition: 0.90s;
+  transition-delay: 0.75s;
+}
+.couner{
+  position: absolute;
+  margin-top: 720px;
+}
+.three{
+  position: relative;
+  top: 44px;
+  margin-left: 90px;
+  margin-bottom: 50px;
+
+}
+
+
+
+
+
+
+
+
+.oki{
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: rgba(4, 195, 62, 0.931);
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 24px;
+  overflow: hidden;
+  transition: 0.2s;
+  position: absolute;
+  top: 110px;
+  left: 910px;
+}
+.oki:hover{
+  color: #255784;
+  background: #2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3;
+  transition-delay:1s;
+}
+.oki span{
+  position: absolute;
+  display: block;
+  
+}
+.oki span:nth-child(1){
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg,transparent, #2196f3);
+}
+.oki:hover span:nth-child(1){
+  left: 100%;
+  transition: 0.90s;
+}
+.oki span:nth-child(3){
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg,transparent, #2196f3);
+}
+.oki:hover span:nth-child(3){
+  right: 100%;
+  transition: 0.90s;
+  transition-delay: 0.5s;
+}
+
+.oki span:nth-child(2){
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg,transparent, #2196f3);
+}
+.oki:hover span:nth-child(2){
+  top: 100%;
+  transition: 0.90s;
+  transition-delay: 0.25s;
+}
+.oki span:nth-child(4){
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg,transparent, #2196f3);
+}
+.oki:hover span:nth-child(4){
+  bottom: 100%;
+  transition: 0.90s;
+  transition-delay: 0.75s;
+}
+
+
+.four{
+  position: absolute;
+  margin-top: 1200px;
+  margin-left: 90px;
+}
+.nomore{
+  position: absolute;
+  margin-top: 1250px;
+  margin-left: 870px;
+}
+
+.qq{
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: rgba(4, 195, 62, 0.931);
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 24px;
+  overflow: hidden;
+  transition: 0.2s;
+  position: absolute;
+  top: 1300px;
+  left: 910px;
+}
+.qq:hover{
+  color: #255784;
+  background: #2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3;
+  transition-delay:1s;
+}
+.qq span{
+  position: absolute;
+  display: block;
+  
+}
+.qq span:nth-child(1){
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg,transparent, #2196f3);
+}
+.qq:hover span:nth-child(1){
+  left: 100%;
+  transition: 0.90s;
+}
+.qq span:nth-child(3){
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg,transparent, #2196f3);
+}
+.qq:hover span:nth-child(3){
+  right: 100%;
+  transition: 0.90s;
+  transition-delay: 0.5s;
+}
+
+.qq span:nth-child(2){
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg,transparent, #2196f3);
+}
+.qq:hover span:nth-child(2){
+  top: 100%;
+  transition: 0.90s;
+  transition-delay: 0.25s;
+}
+.qq span:nth-child(4){
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg,transparent, #2196f3);
+}
+.qq:hover span:nth-child(4){
+  bottom: 100%;
+  transition: 0.90s;
+  transition-delay: 0.75s;
+}
+
+
+.qurt{
+  position: absolute;
+  top: 1651px;
+  left: 90px;
+  justify-content: center;
+  text-align: center;
+}
+.five{
+  position: relative;
+}
+.qw{
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: rgba(4, 195, 62, 0.931);
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 24px;
+  overflow: hidden;
+  transition: 0.2s;
+  position: absolute;
+  top: 120px;
+  left: 810px;
+}
+.qw:hover{
+  color: #255784;
+  background: #2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3;
+  transition-delay:1s;
+}
+.qw span{
+  position: absolute;
+  display: block;
+  
+}
+.qw span:nth-child(1){
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg,transparent, #2196f3);
+}
+.qw:hover span:nth-child(1){
+  left: 100%;
+  transition: 0.90s;
+}
+.qw span:nth-child(3){
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg,transparent, #2196f3);
+}
+.qw:hover span:nth-child(3){
+  right: 100%;
+  transition: 0.90s;
+  transition-delay: 0.5s;
+}
+
+.qw span:nth-child(2){
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg,transparent, #2196f3);
+}
+.qw:hover span:nth-child(2){
+  top: 100%;
+  transition: 0.90s;
+  transition-delay: 0.25s;
+}
+.qw span:nth-child(4){
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg,transparent, #2196f3);
+}
+.qw:hover span:nth-child(4){
+  bottom: 100%;
+  transition: 0.90s;
+  transition-delay: 0.75s;
+}
+
+.qur{
+  position: absolute;
+  top: 2091px;
+  left: 90px;
+  justify-content: center;
+  text-align: center;
+}
+.six{
+  position: relative;
+
+}
+
+.qe{
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: rgba(4, 195, 62, 0.931);
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 24px;
+  overflow: hidden;
+  transition: 0.2s;
+  position: absolute;
+  top: 120px;
+  left: 810px;
+}
+.qe:hover{
+  color: #255784;
+  background: #2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3;
+  transition-delay:1s;
+}
+.qe span{
+  position: absolute;
+  display: block;
+  
+}
+.qe span:nth-child(1){
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg,transparent, #2196f3);
+}
+.qe:hover span:nth-child(1){
+  left: 100%;
+  transition: 0.90s;
+}
+.qe span:nth-child(3){
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg,transparent, #2196f3);
+}
+.qe:hover span:nth-child(3){
+  right: 100%;
+  transition: 0.90s;
+  transition-delay: 0.5s;
+}
+
+.qe span:nth-child(2){
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg,transparent, #2196f3);
+}
+.qe:hover span:nth-child(2){
+  top: 100%;
+  transition: 0.90s;
+  transition-delay: 0.25s;
+}
+.qe span:nth-child(4){
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg,transparent, #2196f3);
+}
+.qe:hover span:nth-child(4){
+  bottom: 100%;
+  transition: 0.90s;
+  transition-delay: 0.75s;
+}
+
+.qir{
+  position: absolute;
+  top: 2091px;
+  left: 90px;
+  justify-content: center;
+  text-align: center;
+}
+.seven{
+  position: relative;
+}
+.qiw{
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: rgba(4, 195, 62, 0.931);
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 24px;
+  overflow: hidden;
+  transition: 0.2s;
+  position: absolute;
+  top: 120px;
+  left: 810px;
+}
+.qiw:hover{
+  color: #255784;
+  background: #2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3;
+  transition-delay:1s;
+}
+.qiw span{
+  position: absolute;
+  display: block;
+  
+}
+.qiw span:nth-child(1){
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg,transparent, #2196f3);
+}
+.qiw:hover span:nth-child(1){
+  left: 100%;
+  transition: 0.90s;
+}
+.qiw span:nth-child(3){
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg,transparent, #2196f3);
+}
+.qiw:hover span:nth-child(3){
+  right: 100%;
+  transition: 0.90s;
+  transition-delay: 0.5s;
+}
+
+.qiw span:nth-child(2){
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg,transparent, #2196f3);
+}
+.qiw:hover span:nth-child(2){
+  top: 100%;
+  transition: 0.90s;
+  transition-delay: 0.25s;
+}
+.qiw span:nth-child(4){
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg,transparent, #2196f3);
+}
+.qiw:hover span:nth-child(4){
+  bottom: 100%;
+  transition: 0.90s;
+  transition-delay: 0.75s;
+}
+.noq{
+  background-color: #eee;
+  color: #000;
+}
+.footer{
+  position: absolute;
+  top: 2491px;
+  margin: 0;
+  padding: 0;
+  background-color: #2f3c4e;
+
+}
+.foot{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.w{
+  top: -7px;
+}
+.e{
+  top: -15px;
+}
+.qi{
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: rgba(4, 195, 62, 0.931);
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 24px;
+  overflow: hidden;
+  transition: 0.2s;
+  position: absolute;
+  top: 175px;
+  left: 610px;
+}
+.qi:hover{
+  color: #255784;
+  background: #2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3;
+  transition-delay:1s;
+}
+.qi span{
+  position: absolute;
+  display: block;
+  
+}
+.qi span:nth-child(1){
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg,transparent, #2196f3);
+}
+.qi:hover span:nth-child(1){
+  left: 100%;
+  transition: 0.90s;
+}
+.qi span:nth-child(3){
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg,transparent, #2196f3);
+}
+.qi:hover span:nth-child(3){
+  right: 100%;
+  transition: 0.90s;
+  transition-delay: 0.5s;
+}
+
+.qi span:nth-child(2){
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg,transparent, #2196f3);
+}
+.qi:hover span:nth-child(2){
+  top: 100%;
+  transition: 0.90s;
+  transition-delay: 0.25s;
+}
+.qi span:nth-child(4){
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg,transparent, #2196f3);
+}
+.qi:hover span:nth-child(4){
+  bottom: 100%;
+  transition: 0.90s;
+  transition-delay: 0.75s;
+}
+.r{
+  top: 125px;
+  left: 350px;
+  position: absolute;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 300;
+  text-transform: none;
+  color: #fff;
+  letter-spacing: 1px;
+  margin: 0;
+  margin-bottom: 12px;
+
+}
+
+.co{
+  padding: 100px;
+  text-align: center;
+}
+
+.hh{
+  color: #fff;
+}
+.mm{
+  text-decoration: none;
+  color: aqua;
+}
+.hh:hover{
+  color: rgb(180, 37, 2);
+}
